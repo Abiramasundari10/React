@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abiramasundari10/REACT.git"
+  },
+  "author": "Abi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abiramasundari10/REACT/issues"
+  },
+  "homepage": "https://github.com/Abiramasundari10/REACT#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}

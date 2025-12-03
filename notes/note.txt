@@ -1,0 +1,37 @@
+what is cdn?
+ -cdn has two files. one is core file another one is dom file.
+ -two types cdn one is development cdn and another one is production
+what is crossorgin?
+React element==normal js object
+render method converting the reactelement(js object) to an h1 tag
+core react  code=>const parent = React.createElement(
+    "div",
+    { id: "parent" }, [React.createElement(
+        "div",
+        { id: "child" },[
+        React.createElement("h1", {}, "I'm an h1 tag"),
+        React.createElement("h2", {}, "I'm an h2 tag")
+
+        ]),
+    React.createElement(
+        "div",
+        { id: "child1" },[
+        React.createElement("h1", {}, "I'm an h1 tag"),
+        React.createElement("h2", {}, "I'm an h2 tag")]
+    )]
+
+);
+jsx make react code easy.
+
+
+<div id="root">
+<h1>HI</h1>
+</div>
+
+root.render(parent); this code will replace h1.
+
+package.json is a configuration of npm
+bundlers-webpack, parcel, vite- parcel is bundler minification juncking
+nmp-package manager
+nmp install -D parcel   there two dependency one is dev dependency another one is normal dependency.
+difference between ^ and ~? "parcel": "^2.15.4" ^updates minor version, ~ updates major updates
