@@ -35,3 +35,14 @@ bundlers-webpack, parcel, vite- parcel is bundler minification juncking
 nmp-package manager
 nmp install -D parcel   there two dependency one is dev dependency another one is normal dependency.
 difference between ^ and ~? "parcel": "^2.15.4" ^updates minor version, ~ updates major updates
+episode-2(parcel)
+npm
+bundler
+gitingnore
+parcel
+parcel catch
+node modules
+package.json
+package-lock.json
+hmr
+refer-parcel doc/browserlist
